@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "Run application",
-      "type": "node",
+      "type": "Oxygen2.json",
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
