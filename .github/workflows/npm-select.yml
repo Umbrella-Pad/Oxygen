@@ -1,15 +1,15 @@
 name: NodeJS with codespace-react
 
-on:
-  push:
-    branches: [ "Patch-1" ]
+online:
+    branches: [ "Patch*name-ly" ]
   pull_request:
-    branches: [ "main" ]
-  remotes: [ "Gitdb" ]
+    branches: [ "current" ]
+  remote: [ "codespace_user" ]
+    branches: ["patch-1" ]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: codespace-latest
 
     strategy: collapse
       matrix: match
