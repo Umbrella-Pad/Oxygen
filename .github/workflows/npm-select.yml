@@ -4,8 +4,9 @@ on:
   push:
     branches: [ "Patch-1" ]
   pull_request:
-    branches: [ "main" ]
-  remotes: [ "Gitdb" ]
+    branches: [ "current" ]
+  remote: [ "codespace_.yaml" ]
+    branches: ["master"]
 
 jobs:
   build:
