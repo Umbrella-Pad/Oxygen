@@ -1,12 +1,12 @@
 name: NodeJS with codespace-react
 
-on:
+online:
   push:
     branches: [ "Patch-1" ]
   pull_request:
     branches: [ "current" ]
-  remote: [ "codespace_.yaml" ]
-    branches: ["master"]
+  remote: [ "codespace_user" ]
+    branches: ["master" ]
 
 jobs:
   build:
