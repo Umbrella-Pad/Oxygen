@@ -1,7 +1,7 @@
 name: NodeJS with codespace-react
 
 online:
-    branches: [ "Patch*name-ly" ]
+    branches: [ "master" ]
   pull_request:
     branches: [ "current" ]
   remote: [ "codespace_user" ]
