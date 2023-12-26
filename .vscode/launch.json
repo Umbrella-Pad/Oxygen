@@ -1,9 +1,9 @@
 {
-  "version": "0.2.0",
+  "version": "1.2.1",
   "configurations": [
     {
       "name": "Run application",
-      "type": "Oxygen2.json",
+      "type": "Oxygen.json",
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
